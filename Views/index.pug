@@ -1,0 +1,15 @@
+html
+	title Time stamp Microservice
+	link(
+	rel='stylesheet'
+	type='text/css'
+	href='css/index.css')
+body
+	h1 Time Stamp Microservice
+	p Pass the time as the second parameter to get the unix and natural time stamps as json.
+	h2 Examples
+	a(href = 'http://127.0.0.1:8080/December%2015,%202015') http://127.0.0.1:8080/December%2015,%202015
+	br
+	a(href = 'http://127.0.0.1:8080/1450137600') http://127.0.0.1:8080/1450137600
+	h2 Example Output
+	code {"unix":1450137600,"natural":""December 15, 2015"}
