@@ -1,0 +1,19 @@
+{
+  "name": "timestampmicroservice",
+  "version": "1.0.0",
+  "description": "Converts time in any format and return json file",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crespoter/Time-Stamp-Microsevice.git"
+  },
+  "author": "David Christie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crespoter/Time-Stamp-Microsevice/issues"
+  },
+  "homepage": "https://github.com/crespoter/Time-Stamp-Microsevice#readme"
+}
